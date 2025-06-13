@@ -17,3 +17,4 @@ def get_consumo():
 def get_geracao():
     geracao = round(random.uniform(1.0, 7.5), 2)  # kW
     return {"geracao": f"{geracao} kW"}
+
